@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.5em;
+  animation: rotate 2s linear infinite;
+  letter-spacing: 5px;
+}
+
+@keyframes rotate {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
